@@ -5,6 +5,7 @@ body {
 }
 body {
 	font-family: 'Barlow', sans-serif;
+	color: $text-color;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.25;
@@ -21,13 +22,4 @@ body {
 img {
 	display: block;
 	max-width: 100%;
-}
-video {
-	display: block;
-	max-width: 100%;
-}
-.container {
-	max-width: 1200px;
-	padding: 0 15px;
-	margin: 0 auto;
 }

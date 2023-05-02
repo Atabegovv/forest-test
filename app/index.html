@@ -1,20 +1,61 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
-		<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
+		<link
+			href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
 		<link rel="stylesheet" href="css/libs.min.css" />
 		<link rel="stylesheet" href="css/style.min.css" />
-		<title>Title</title>
+		<title>Kasmir</title>
 	</head>
 	<body>
 		<div class="wrapper">
-			<header class="header"></header>
+			<header class="header">
+				<a href="/" class="logo">
+					<svg class="logo__svg">
+						<use xlink:href="images/sprite.svg#logo"></use>
+					</svg>
+				</a>
+				<nav class="menu">
+					<a href="/" class="menu__nav menu__nav--active">Home</a>
+					<a href="/" class="menu__nav">Style Hair</a>
+					<a href="/" class="menu__nav">Models</a>
+					<a href="/" class="menu__nav">Shop</a>
+					<a href="/" class="menu__nav">Contact</a>
+					<a href="/" class="shoping-bag">
+						<svg class="shoping-bag__svg">
+							<use xlink:href="images/sprite.svg#shop-bag"></use>
+						</svg>
+						<span class="shoping-bag__number">1</span>
+					</a>
+				</nav>
+			</header>
 			<main class="main"></main>
-			<footer class="footer"></footer>
+			<footer class="footer">
+				<a
+					class="footer__social"
+					href="https://www.instagram.com/"
+					target="_blank"
+					>FACEBOOK</a
+				>
+				<a
+					class="footer__social"
+					href="https://www.instagram.com/"
+					target="_blank"
+					>INSTAGRAM</a
+				>
+				<a
+					class="footer__social"
+					href="https://www.instagram.com/"
+					target="_blank"
+					>TWITTER</a
+				>
+			</footer>
 		</div>
 		<script src="js/scripts.min.js"></script>
 	</body>
